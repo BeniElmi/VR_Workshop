@@ -1,27 +1,11 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{5F719F07-4D45-9E69-6E3C-3BA72AB1C9E2}",
+	"EngineAssociation": "4.18",
 	"Category": "",
-	"Description": "Oculus Avatar plugin for the Proteus Template",
-	"Modules": [
-		{
-			"Name": "Proteus",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"OnlineSubsystem",
-				"OnlineSubsystemUtils"
-			]
-		}
-	],
+	"Description": "",
 	"Plugins": [
 		{
-			"Name": "OculusAudio",
-			"Enabled": true
-		},
-		{
-			"Name": "OculusVR",
+			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
 		},
 		{
@@ -29,11 +13,35 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OvrAvatar",
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusAudio",
 			"Enabled": true
 		},
 		{
-			"Name": "SteamVR",
+			"Name": "AdvancedSteamSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "LinuxDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "IOSDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidDeviceProfileSelector",
 			"Enabled": false
 		}
 	],
